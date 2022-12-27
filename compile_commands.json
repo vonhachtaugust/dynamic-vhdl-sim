@@ -1,0 +1,59 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-W",
+      "-Wall",
+      "-O2",
+      "-Isrc",
+      "-I/Users/developer/Software/homebrew/Cellar/openssl@3/3.0.5/include",
+      "-I/Users/developer/Software/x86/homebrew/Cellar/libwebsockets/4.3.2/include",
+      "-c",
+      "-I/Users/developer/Software/homebrew/Caskroom/ghdl/latest/include/ghdl",
+      "-o",
+      "build/queue.o",
+      "src/queue.c"
+    ],
+    "directory": "/Users/developer/Development/vpi-server",
+    "file": "/Users/developer/Development/vpi-server/src/queue.c",
+    "output": "/Users/developer/Development/vpi-server/build/queue.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-W",
+      "-Wall",
+      "-O2",
+      "-Isrc",
+      "-I/Users/developer/Software/homebrew/Cellar/openssl@3/3.0.5/include",
+      "-I/Users/developer/Software/x86/homebrew/Cellar/libwebsockets/4.3.2/include",
+      "-c",
+      "-I/Users/developer/Software/homebrew/Caskroom/ghdl/latest/include/ghdl",
+      "-o",
+      "build/server.o",
+      "src/server.c"
+    ],
+    "directory": "/Users/developer/Development/vpi-server",
+    "file": "/Users/developer/Development/vpi-server/src/server.c",
+    "output": "/Users/developer/Development/vpi-server/build/server.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-W",
+      "-Wall",
+      "-O2",
+      "-Isrc",
+      "-I/Users/developer/Software/homebrew/Cellar/openssl@3/3.0.5/include",
+      "-I/Users/developer/Software/x86/homebrew/Cellar/libwebsockets/4.3.2/include",
+      "-c",
+      "-I/Users/developer/Software/homebrew/Caskroom/ghdl/latest/include/ghdl",
+      "-o",
+      "build/vpi.o",
+      "src/vpi.c"
+    ],
+    "directory": "/Users/developer/Development/vpi-server",
+    "file": "/Users/developer/Development/vpi-server/src/vpi.c",
+    "output": "/Users/developer/Development/vpi-server/build/vpi.o"
+  }
+]
